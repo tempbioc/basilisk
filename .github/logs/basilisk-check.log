@@ -1,0 +1,212 @@
+* using log directory '/home/runner/work/basilisk/basilisk.Rcheck'
+* using R Under development (unstable) (2024-02-17 r85935)
+* using platform: x86_64-pc-linux-gnu
+* R was compiled by
+    gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+    GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+* running under: Ubuntu 22.04.3 LTS
+* using session charset: ASCII
+* checking for file 'basilisk/DESCRIPTION' ... OK
+* this is package 'basilisk' version '1.15.5002'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  inst/example/.BBSoptions
+  node_modules/.package-lock.json
+  node_modules/concat-map/.travis.yml
+  node_modules/delayed-stream/.npmignore
+  node_modules/events/.airtap.yml
+  node_modules/events/.travis.yml
+  node_modules/process/.eslintrc
+  node_modules/tr46/.npmignore
+  node_modules/tr46/lib/.gitkeep
+  node_modules/tunnel/.travis.yml
+  .github
+  node_modules/.bin
+  node_modules/@actions/core/node_modules/.bin
+  node_modules/@azure/core-http/node_modules/.bin
+  node_modules/@azure/ms-rest-js/node_modules/.bin
+  node_modules/balanced-match/.github
+  node_modules/events/.github
+  node_modules/tunnel/.idea
+These were most likely included in error. See section 'Package
+structure' in the 'Writing R Extensions' manual.
+* checking for portable file names ... NOTE
+Found the following non-portable file paths:
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js.map
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js.map
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/index.js.map
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/AbortError.d.ts
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/AbortError.d.ts.map
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts.map
+  basilisk/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/tsdoc-metadata.json
+  basilisk/node_modules/@azure/core-http/dist-esm/src/credentials/basicAuthenticationCredentials.js.map
+  basilisk/node_modules/@azure/core-http/dist-esm/src/policies/disableResponseDecompressionPolicy.browser.js
+  basilisk/node_modules/@azure/core-http/dist-esm/src/policies/disableResponseDecompressionPolicy.browser.js.map
+  basilisk/node_modules/@azure/core-http/dist-esm/src/policies/disableResponseDecompressionPolicy.js.map
+  basilisk/node_modules/@azure/core-http/types/3.1/src/policies/disableResponseDecompressionPolicy.browser.d.ts
+  basilisk/node_modules/@azure/core-http/types/3.1/src/policies/disableResponseDecompressionPolicy.d.ts
+  basilisk/node_modules/@azure/core-http/types/latest/src/credentials/basicAuthenticationCredentials.d.ts
+  basilisk/node_modules/@azure/core-http/types/latest/src/credentials/basicAuthenticationCredentials.d.ts.map
+  basilisk/node_modules/@azure/core-http/types/latest/src/credentials/serviceClientCredentials.d.ts.map
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/bearerTokenAuthenticationPolicy.d.ts
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/bearerTokenAuthenticationPolicy.d.ts.map
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/disableResponseDecompressionPolicy.browser.d.ts
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/disableResponseDecompressionPolicy.browser.d.ts.map
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/disableResponseDecompressionPolicy.d.ts
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/disableResponseDecompressionPolicy.d.ts.map
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/generateClientRequestIdPolicy.d.ts.map
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/msRestUserAgentPolicy.browser.d.ts.map
+  basilisk/node_modules/@azure/core-http/types/latest/src/policies/msRestUserAgentPolicy.native.d.ts.map
+  basilisk/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js
+  basilisk/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js.map
+  basilisk/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js
+  basilisk/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js.map
+  basilisk/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/types/src/AbortError.d.ts.map
+  basilisk/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts
+  basilisk/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts.map
+  basilisk/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/types/src/tsdoc-metadata.json
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js.map
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js.map
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/index.js.map
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/AbortError.d.ts
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/AbortError.d.ts.map
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts.map
+  basilisk/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/tsdoc-metadata.json
+  basilisk/node_modules/@azure/ms-rest-js/es/lib/credentials/azureIdentityTokenCredentialAdapter.d.ts.map
+  basilisk/node_modules/@azure/ms-rest-js/es/lib/credentials/azureIdentityTokenCredentialAdapter.js.map
+  basilisk/node_modules/@azure/ms-rest-js/node_modules/tslib/test/validateModuleExportsMatchCommonJS/index.js
+  basilisk/node_modules/@azure/ms-rest-js/node_modules/tslib/test/validateModuleExportsMatchCommonJS/package.json
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/BlobDownloadResponse.browser.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/StorageBrowserPolicyFactory.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/AnonymousCredential.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/AnonymousCredential.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/StorageSharedKeyCredential.browser.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/StorageSharedKeyCredential.browser.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/StorageSharedKeyCredential.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/StorageSharedKeyCredential.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/UserDelegationKeyCredential.browser.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/UserDelegationKeyCredential.browser.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/UserDelegationKeyCredential.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/UserDelegationKeyCredential.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/models/index.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/models/mappers.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/models/parameters.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/models/parameters.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/appendBlob.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/appendBlob.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/blob.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/blockBlob.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/blockBlob.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/container.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/container.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/index.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/index.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/pageBlob.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/pageBlob.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/service.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/service.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/storageClient.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/storageClientContext.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/storageClientContext.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/AnonymousCredentialPolicy.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/AnonymousCredentialPolicy.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageBearerTokenChallengeAuthenticationPolicy.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageBearerTokenChallengeAuthenticationPolicy.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageBrowserPolicy.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageRetryPolicy.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageSharedKeyCredentialPolicy.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageSharedKeyCredentialPolicy.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/pollers/BlobStartCopyFromUrlPoller.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/pollers/BlobStartCopyFromUrlPoller.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/sas/AccountSASResourceTypes.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/sas/AccountSASSignatureValues.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/sas/BlobSASSignatureValues.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/sas/ContainerSASPermissions.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/utils/BlobQuickQueryStream.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/utils/RetriableReadableStream.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-internal-avro/src/AvroReadableFromBlob.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-internal-avro/src/AvroReadableFromStream.js
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-internal-avro/src/AvroReadableFromStream.js.map
+  basilisk/node_modules/@azure/storage-blob/dist-esm/storage-internal-avro/src/utils/utils.common.js.map
+
+Tarballs are only required to store paths of up to 100 bytes and cannot
+store those of more than 256 bytes, with restrictions including to 100
+bytes for the final component.
+See section 'Package structure' in the 'Writing R Extensions' manual.
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'basilisk' can be installed ... NOTE
+Found the following notes/warnings:
+  Non-staged installation was used
+See '/home/runner/work/basilisk/basilisk.Rcheck/00install.out' for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking 'build' directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in shell scripts ... OK
+* checking line endings in Makefiles ... OK
+* checking for GNU extensions in Makefiles ... WARNING
+Found the following file(s) containing GNU extensions:
+  node_modules/delayed-stream/Makefile
+Portable Makefiles do not use GNU extensions such as +=, :=, $(shell),
+$(wildcard), ifeq ... endif, .NOTPARALLEL See section 'Writing portable
+packages' in the 'Writing R Extensions' manual.
+* checking include directives in Makefiles ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... OK
+Examples with CPU (user + system) or elapsed time > 5s
+                          user system elapsed
+basiliskStart          121.859 16.114 139.774
+createLocalBasiliskEnv  52.021  5.798  60.252
+* checking for unstated dependencies in 'tests' ... OK
+* checking tests ...
+  Running 'testthat.R'
+ OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+Status: 1 WARNING, 3 NOTEs
+See
+  '/home/runner/work/basilisk/basilisk.Rcheck/00check.log'
+for details.
+
+
